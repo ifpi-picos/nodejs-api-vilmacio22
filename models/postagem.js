@@ -7,7 +7,7 @@ const schema = new mongoose.Schema({
     texto:{
         type: String,
     },
-    fataAlteracao: {
+    dataAlteracao: {
         type: Date,
         default: Date.now()
     },

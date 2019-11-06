@@ -11,7 +11,7 @@ router.get('/', (req, res)=>{
 router.use((req, res, next)=>{
     console.log('Time: ', Date.now());
     next();
-})
+});
 router.use('/postagens', postagemRoutes)
 
 module.exports = router;
